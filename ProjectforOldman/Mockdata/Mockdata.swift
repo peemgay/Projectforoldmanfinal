@@ -8,5 +8,6 @@
 import Foundation
 
 var users: [User] = [User(name: "ประยุทธ ทองดี",
-                          email: "prayut_c@gmail.com",
-                          password: "1234")]
+                          email: "p",
+                          password: "p")]
+

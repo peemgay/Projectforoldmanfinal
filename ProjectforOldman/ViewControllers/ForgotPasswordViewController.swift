@@ -15,7 +15,7 @@ class ForgotPasswordViewController: UITableViewController {
     
     
     
-    @IBOutlet weak var EmailTextFild: UITextField!
+  /*  @IBOutlet weak var EmailTextFild: UITextField!
     @IBAction func EnterBottle(_ sender: Any) {
         
     }
@@ -23,7 +23,7 @@ class ForgotPasswordViewController: UITableViewController {
     @IBAction func CancelBottle(_ sender: Any) {
         dismiss(animated: true,
                    completion: nil)
-    }
+    }*/
     
 }
 

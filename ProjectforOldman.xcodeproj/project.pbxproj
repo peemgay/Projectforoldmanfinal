@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99EE2F86247EA7EE002BC45B /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F85247EA7EE002BC45B /* ScrollViewController.swift */; };
+		99EE2F892488E860002BC45B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F882488E85F002BC45B /* MainViewController.swift */; };
+		99EE2F8B2488EC5E002BC45B /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F8A2488EC5E002BC45B /* DateViewController.swift */; };
+		99EE2F8F2488FC4C002BC45B /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F8E2488FC4C002BC45B /* TextViewController.swift */; };
+		99EE2F91248A4462002BC45B /* SettimgViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F90248A4462002BC45B /* SettimgViewcontroller.swift */; };
 		99F09415247CCB3A0042C301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F09414247CCB3A0042C301 /* AppDelegate.swift */; };
 		99F09417247CCB3A0042C301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F09416247CCB3A0042C301 /* SceneDelegate.swift */; };
 		99F09419247CCB3A0042C301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F09418247CCB3A0042C301 /* ViewController.swift */; };
@@ -38,7 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		99EE2F85247EA7EE002BC45B /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		99EE2F882488E85F002BC45B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../Main ViewController/MainViewController.swift"; sourceTree = "<group>"; };
+		99EE2F8A2488EC5E002BC45B /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		99EE2F8E2488FC4C002BC45B /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		99EE2F90248A4462002BC45B /* SettimgViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettimgViewcontroller.swift; sourceTree = "<group>"; };
 		99F09411247CCB3A0042C301 /* ProjectforOldman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectforOldman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F09414247CCB3A0042C301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99F09416247CCB3A0042C301 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,14 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		99EE2F84247EA7B9002BC45B /* ScrollViewController */ = {
-			isa = PBXGroup;
-			children = (
-				99EE2F85247EA7EE002BC45B /* ScrollViewController.swift */,
-			);
-			path = ScrollViewController;
-			sourceTree = "<group>";
-		};
 		99F09408247CCB3A0042C301 = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +107,6 @@
 		99F09413247CCB3A0042C301 /* ProjectforOldman */ = {
 			isa = PBXGroup;
 			children = (
-				99EE2F84247EA7B9002BC45B /* ScrollViewController */,
 				99F0944B247E05810042C301 /* ErrorHelper */,
 				99F09446247E05240042C301 /* ViewControllers */,
 				99F09443247E04350042C301 /* Mockdata */,
@@ -176,6 +173,10 @@
 				99F09447247E053C0042C301 /* SigninViewController.swift */,
 				99F09449247E05580042C301 /* RegisterTableViewController.swift */,
 				99F0944E247E92600042C301 /* ForgotPasswordViewController.swift */,
+				99EE2F882488E85F002BC45B /* MainViewController.swift */,
+				99EE2F8A2488EC5E002BC45B /* DateViewController.swift */,
+				99EE2F8E2488FC4C002BC45B /* TextViewController.swift */,
+				99EE2F90248A4462002BC45B /* SettimgViewcontroller.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -289,18 +290,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99EE2F8B2488EC5E002BC45B /* DateViewController.swift in Sources */,
 				99F09419247CCB3A0042C301 /* ViewController.swift in Sources */,
 				99F09415247CCB3A0042C301 /* AppDelegate.swift in Sources */,
 				99F09438247E030D0042C301 /* register.swift in Sources */,
-				99EE2F86247EA7EE002BC45B /* ScrollViewController.swift in Sources */,
 				99F0943A247E03480042C301 /* register2.swift in Sources */,
 				99F09442247E04100042C301 /* user.swift in Sources */,
 				99F09417247CCB3A0042C301 /* SceneDelegate.swift in Sources */,
 				99F09448247E053C0042C301 /* SigninViewController.swift in Sources */,
 				99F09445247E044A0042C301 /* Mockdata.swift in Sources */,
+				99EE2F892488E860002BC45B /* MainViewController.swift in Sources */,
 				99F0943D247E03800042C301 /* Signin.swift in Sources */,
 				99F0943F247E03980042C301 /* signin2.swift in Sources */,
 				99F0944F247E92600042C301 /* ForgotPasswordViewController.swift in Sources */,
+				99EE2F91248A4462002BC45B /* SettimgViewcontroller.swift in Sources */,
+				99EE2F8F2488FC4C002BC45B /* TextViewController.swift in Sources */,
 				99F0944D247E058C0042C301 /* ErrorHelper.swift in Sources */,
 				99F0944A247E05580042C301 /* RegisterTableViewController.swift in Sources */,
 			);
