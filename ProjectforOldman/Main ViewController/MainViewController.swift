@@ -9,10 +9,18 @@
 import UIKit
 
 class MainViewController: UITableViewController{
+    @IBOutlet weak var FideYourHotel: UILabel!
+  /*  @IBOutlet var Info: UILabel!*/
     
     @IBAction func Date(_ sender: UIButton) {
         print ("Ok")
       //  self.performSegue(withIdentifier: "DateViewNext", sender: self)
+        func viewDdload()
+        {
+            super.viewDidLoad()
+            
+        /*  Info.text = "Hello My name is Peem we are Dev of this app"*/
+        }
     
 }
 

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TextViewController: UITextField{
+class TextViewController: UIViewController{
     
     
 }
