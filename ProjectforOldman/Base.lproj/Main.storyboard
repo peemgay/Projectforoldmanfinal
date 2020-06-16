@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QZ3-8F-och">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yl0-Ru-UFU">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -253,9 +253,9 @@ SusieSays - Instagram</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPb-8q-SCx">
-                                <rect key="frame" x="230" y="340" width="115" height="30"/>
-                                <state key="normal" title="Forgot Password">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPb-8q-SCx">
+                                <rect key="frame" x="222" y="332" width="123" height="30"/>
+                                <state key="normal" title="Forgot Password?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -547,7 +547,7 @@ SusieSays - Instagram</string>
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.0" green="0.56546583319999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="K1B-Ki-tVG" firstAttribute="top" secondItem="vQJ-M9-AZP" secondAttribute="top" constant="15" id="L31-IC-45f"/>
                                                 <constraint firstItem="K1B-Ki-tVG" firstAttribute="leading" secondItem="vQJ-M9-AZP" secondAttribute="leading" constant="15" id="MrC-p5-aOV"/>
@@ -555,6 +555,7 @@ SusieSays - Instagram</string>
                                                 <constraint firstAttribute="bottom" secondItem="K1B-Ki-tVG" secondAttribute="bottom" constant="15" id="zKC-NO-rqu"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.6452602744" blue="0.97622042890000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="86" id="Txf-Ri-IHx">
                                         <rect key="frame" x="0.0" y="707" width="375" height="86"/>
@@ -565,7 +566,7 @@ SusieSays - Instagram</string>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ex-R9-Hkx">
                                                     <rect key="frame" x="15" y="15" width="345" height="56"/>
-                                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <state key="normal" title="Cancel">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -574,7 +575,7 @@ SusieSays - Instagram</string>
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.0" green="0.56546583319999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="6Ex-R9-Hkx" firstAttribute="leading" secondItem="btG-En-F30" secondAttribute="leading" constant="15" id="BHq-Sm-W5w"/>
                                                 <constraint firstAttribute="trailing" secondItem="6Ex-R9-Hkx" secondAttribute="trailing" constant="15" id="BN9-S7-gCq"/>
@@ -582,6 +583,7 @@ SusieSays - Instagram</string>
                                                 <constraint firstItem="6Ex-R9-Hkx" firstAttribute="top" secondItem="btG-En-F30" secondAttribute="top" constant="15" id="cds-Vd-6eT"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.56546583319999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -664,7 +666,7 @@ SusieSays - Instagram</string>
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TGH-wJ-wW2">
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TGH-wJ-wW2">
                                                     <rect key="frame" x="26" y="21" width="323" height="44"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocorrectionType="no"/>
@@ -694,6 +696,7 @@ SusieSays - Instagram</string>
                                                     </state>
                                                     <connections>
                                                         <action selector="registerButtonTapped" destination="mUn-FW-0Ut" eventType="touchUpInside" id="PyJ-cc-pyn"/>
+                                                        <action selector="sendButtonTapped:" destination="lRg-ed-coJ" eventType="touchUpInside" id="Sv2-29-e3n"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -715,7 +718,7 @@ SusieSays - Instagram</string>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTN-Xs-fxI">
                                                     <rect key="frame" x="15" y="15" width="345" height="53"/>
-                                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <state key="normal" title="Cancel">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -744,6 +747,8 @@ SusieSays - Instagram</string>
                     <connections>
                         <outlet property="cancel" destination="VTN-Xs-fxI" id="OYd-4H-5Pi"/>
                         <outlet property="send" destination="omQ-gs-5tC" id="ghw-FI-BkF"/>
+                        <outlet property="userEmail" destination="TGH-wJ-wW2" id="Vib-cB-vjf"/>
+                        <outlet property="userEmailTextField" destination="TGH-wJ-wW2" id="OSr-ch-3kx"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SMZ-LV-WRf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1660,9 +1665,6 @@ SusieSays - Instagram</string>
                                                     <state key="normal" title="Book Now">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
-                                                    <connections>
-                                                        <segue destination="qGw-9b-dS8" kind="presentation" id="GA7-Sn-JcP"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2401,12 +2403,12 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
             </objects>
             <point key="canvasLocation" x="1921" y="655"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Choose View Controller-->
         <scene sceneID="Nub-n5-ZpS">
             <objects>
-                <tableViewController id="qGw-9b-dS8" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="s0n-o6-hmQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                <tableViewController id="qGw-9b-dS8" customClass="ChooseViewController" customModule="ProjectforOldman" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="s0n-o6-hmQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <sections>
@@ -2504,9 +2506,6 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                                                             <state key="normal" title="PICK A DATE">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
-                                                            <connections>
-                                                                <segue destination="cRd-2d-7i7" kind="presentation" id="pnt-Fk-QKs"/>
-                                                            </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facility" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtV-KH-ynH">
                                                             <rect key="frame" x="176" y="8" width="61" height="24"/>
@@ -2590,16 +2589,18 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZHB-Ad-eZ2">
                                                     <rect key="frame" x="9" y="8" width="263" height="44"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many nights to stay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocu-yU-CJe">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="How many nights to stay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocu-yU-CJe">
                                                             <rect key="frame" x="8" y="12" width="178" height="20"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bN-uj-1ay">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bN-uj-1ay">
                                                             <rect key="frame" x="234" y="12" width="21" height="21"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="21" id="NTI-8T-f8S"/>
+                                                                <constraint firstAttribute="height" constant="21" id="wgX-aq-sqb"/>
+                                                            </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -2607,7 +2608,11 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="8bN-uj-1ay" secondAttribute="bottom" constant="11" id="8v1-mV-yLc"/>
+                                                        <constraint firstAttribute="trailing" secondItem="8bN-uj-1ay" secondAttribute="trailing" constant="8" id="Amv-31-ZdN"/>
                                                         <constraint firstAttribute="width" constant="263" id="DX4-tC-S3d"/>
+                                                        <constraint firstItem="8bN-uj-1ay" firstAttribute="top" secondItem="ZHB-Ad-eZ2" secondAttribute="top" constant="12" id="aIN-2Q-DDp"/>
+                                                        <constraint firstItem="8bN-uj-1ay" firstAttribute="leading" secondItem="ocu-yU-CJe" secondAttribute="trailing" constant="48" id="gvF-c7-5az"/>
                                                         <constraint firstAttribute="height" constant="44" id="nbe-3E-bMW"/>
                                                     </constraints>
                                                 </view>
@@ -2659,26 +2664,40 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                                                         <constraint firstAttribute="height" constant="44" id="idc-F7-A2n"/>
                                                     </constraints>
                                                 </view>
-                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="k5A-pu-fUK">
+                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="k5A-pu-fUK">
                                                     <rect key="frame" x="275" y="112" width="94" height="32"/>
                                                     <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="stepper2:" destination="qGw-9b-dS8" eventType="valueChanged" id="Zhf-D4-Oat"/>
+                                                    </connections>
                                                 </stepper>
-                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="yP2-1a-XDt">
+                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="yP2-1a-XDt">
                                                     <rect key="frame" x="275" y="14" width="94" height="32"/>
                                                     <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="94" id="63H-1R-YKO"/>
+                                                        <constraint firstAttribute="height" constant="32" id="BRX-zM-1m7"/>
+                                                    </constraints>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="stepper:" destination="qGw-9b-dS8" eventType="valueChanged" id="kXJ-Zc-cS1"/>
+                                                    </connections>
                                                 </stepper>
-                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="vPR-TP-civ">
+                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="vPR-TP-civ">
                                                     <rect key="frame" x="275" y="63" width="94" height="32"/>
                                                     <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <connections>
+                                                        <action selector="stepper1:" destination="qGw-9b-dS8" eventType="valueChanged" id="8hZ-aP-4pY"/>
+                                                    </connections>
                                                 </stepper>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="vPR-TP-civ" firstAttribute="leading" secondItem="gx9-Vi-MoO" secondAttribute="trailing" constant="3" id="0EC-lZ-tla"/>
                                                 <constraint firstItem="k5A-pu-fUK" firstAttribute="leading" secondItem="3AA-ar-muS" secondAttribute="trailing" constant="3" id="5GZ-CO-Dc6"/>
                                                 <constraint firstItem="gx9-Vi-MoO" firstAttribute="top" secondItem="ZHB-Ad-eZ2" secondAttribute="bottom" constant="5" id="9mh-ej-F4I"/>
+                                                <constraint firstItem="yP2-1a-XDt" firstAttribute="leading" secondItem="ZHB-Ad-eZ2" secondAttribute="trailing" constant="3" id="BX4-mQ-yfm"/>
                                                 <constraint firstAttribute="trailing" secondItem="yP2-1a-XDt" secondAttribute="trailing" constant="6" id="Bwn-N0-Qa5"/>
                                                 <constraint firstItem="yP2-1a-XDt" firstAttribute="leading" secondItem="ZHB-Ad-eZ2" secondAttribute="trailing" constant="3" id="Ejg-Re-jMa"/>
                                                 <constraint firstItem="ZHB-Ad-eZ2" firstAttribute="top" secondItem="EiP-kS-kcJ" secondAttribute="top" constant="8" id="FFj-q1-Ams"/>
@@ -2697,11 +2716,14 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                                                 <constraint firstItem="yP2-1a-XDt" firstAttribute="top" secondItem="EiP-kS-kcJ" secondAttribute="top" constant="14" id="erf-VC-5xi"/>
                                                 <constraint firstItem="yP2-1a-XDt" firstAttribute="leading" secondItem="ZHB-Ad-eZ2" secondAttribute="trailing" constant="3" id="ev0-HT-0MM"/>
                                                 <constraint firstItem="gx9-Vi-MoO" firstAttribute="top" secondItem="ZHB-Ad-eZ2" secondAttribute="bottom" constant="5" id="iVH-Pd-qLP"/>
+                                                <constraint firstAttribute="trailing" secondItem="yP2-1a-XDt" secondAttribute="trailing" constant="6" id="lN7-Cc-ERM"/>
                                                 <constraint firstItem="vPR-TP-civ" firstAttribute="leading" secondItem="gx9-Vi-MoO" secondAttribute="trailing" constant="3" id="pXg-vU-HbS"/>
                                                 <constraint firstItem="vPR-TP-civ" firstAttribute="top" secondItem="yP2-1a-XDt" secondAttribute="bottom" constant="17" id="tAR-fZ-GlK"/>
                                                 <constraint firstItem="k5A-pu-fUK" firstAttribute="leading" secondItem="3AA-ar-muS" secondAttribute="trailing" constant="3" id="x5m-1J-PnU"/>
                                                 <constraint firstAttribute="trailing" secondItem="vPR-TP-civ" secondAttribute="trailing" constant="6" id="xLJ-rB-MIw"/>
                                                 <constraint firstItem="3AA-ar-muS" firstAttribute="top" secondItem="gx9-Vi-MoO" secondAttribute="bottom" constant="5" id="xSd-G8-aiG"/>
+                                                <constraint firstItem="vPR-TP-civ" firstAttribute="top" secondItem="yP2-1a-XDt" secondAttribute="bottom" constant="17" id="xeu-tN-eI0"/>
+                                                <constraint firstItem="yP2-1a-XDt" firstAttribute="top" secondItem="EiP-kS-kcJ" secondAttribute="top" constant="14" id="ylk-NH-pII"/>
                                                 <constraint firstAttribute="bottom" secondItem="k5A-pu-fUK" secondAttribute="bottom" constant="16" id="yoJ-8h-Fum"/>
                                                 <constraint firstItem="yP2-1a-XDt" firstAttribute="top" secondItem="EiP-kS-kcJ" secondAttribute="top" constant="14" id="zQa-3J-gBu"/>
                                             </constraints>
@@ -2790,10 +2812,15 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                             <outlet property="delegate" destination="qGw-9b-dS8" id="i2v-mu-SZK"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="lbl" destination="8bN-uj-1ay" id="cqf-NI-mbV"/>
+                        <outlet property="lbl1" destination="K7N-qF-rD8" id="g0H-ST-jPV"/>
+                        <outlet property="lbl2" destination="rRu-6s-cKw" id="7kF-bV-NVU"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jrQ-bW-xTo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3358" y="654"/>
+            <point key="canvasLocation" x="3606" y="1608"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Nta-k6-0g1">
@@ -2813,14 +2840,13 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mi6-yk-ZVg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1703" y="1692"/>
+            <point key="canvasLocation" x="2166" y="1657"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="sbs-ZD-gab">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3r0-7E-Ran" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="fhg-ss-TJJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="OLv-cO-292"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="person.fill" catalog="system" id="OLv-cO-292"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yOK-Lh-bpP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2829,6 +2855,7 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                         <segue destination="pHW-0H-oy6" kind="relationship" relationship="rootViewController" id="xZl-xG-Ijs"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3r0-7E-Ran" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="971" y="2500"/>
         </scene>
@@ -2885,15 +2912,15 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
             <objects>
                 <viewController modalTransitionStyle="crossDissolve" id="cRd-2d-7i7" customClass="DatepickerViewController" customModule="ProjectforOldman" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nLD-Au-tEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <datePicker contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="ytG-RY-uzL">
-                                <rect key="frame" x="27" y="66" width="320" height="472"/>
+                                <rect key="frame" x="27" y="66" width="320" height="492"/>
                                 <locale key="locale" localeIdentifier="th_TH"/>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XvI-ZW-Du8">
-                                <rect key="frame" x="149" y="471" width="77" height="73"/>
+                                <rect key="frame" x="149" y="471" width="77" height="93"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Get Date"/>
                                 <connections>
@@ -2931,7 +2958,29 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TlS-eM-Ynr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4022" y="654"/>
+            <point key="canvasLocation" x="4324" y="1608"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="06J-1u-BGS">
+            <objects>
+                <viewController id="iFg-eW-W8t" customClass="ViewController" customModule="ProjectforOldman" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WEz-5A-VP5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAN-od-kMf">
+                                <rect key="frame" x="136" y="174" width="107" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="touch id"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="5s5-x7-7cZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PId-r2-yRi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5356" y="1607.9460269865069"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="ogZ-sx-RCm">
@@ -3316,7 +3365,7 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
         <!--View Controller-->
         <scene sceneID="2ud-rE-Q8G">
             <objects>
-                <viewController id="qci-al-RKT" customClass="ViewController" customModule="SearchBarInTable" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qci-al-RKT" customClass="ViewController" customModule="ProjectforOldman" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cFh-bX-cT6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3339,7 +3388,7 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                                     </connections>
                                 </searchBar>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="104" id="amX-5j-Xgt" customClass="TableCell" customModule="SearchBarInTable" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="104" id="amX-5j-Xgt" customClass="TableCell" customModule="ProjectforOldman" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="84" width="375" height="104"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="amX-5j-Xgt" id="UDV-HN-CcL">
@@ -3453,12 +3502,11 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
             </objects>
             <point key="canvasLocation" x="350" y="726"/>
         </scene>
-        <!--Item-->
+        <!--Explore-->
         <scene sceneID="3Ul-qG-Jvb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="C2x-Bk-0uq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="VIm-jx-PTX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="V8S-IE-q7d"/>
+                    <tabBarItem key="tabBarItem" title="Explore" image="magnifyingglass" catalog="system" id="V8S-IE-q7d"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WHs-Qy-PHL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3467,15 +3515,15 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                         <segue destination="3OF-Iq-MPg" kind="relationship" relationship="rootViewController" id="vQV-UA-3Jl"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C2x-Bk-0uq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1750" y="2509"/>
+            <point key="canvasLocation" x="1777" y="2499"/>
         </scene>
-        <!--Item-->
+        <!--Trips-->
         <scene sceneID="Nlt-Is-fOQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FJ5-f6-d0k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="caj-uz-xaF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="bC7-Y9-i4s"/>
+                    <tabBarItem key="tabBarItem" title="Trips" image="heart.fill" catalog="system" id="bC7-Y9-i4s"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="m23-cr-Vje">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3484,15 +3532,15 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                         <segue destination="xuL-bj-Xx1" kind="relationship" relationship="rootViewController" id="wbT-hw-A7a"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJ5-f6-d0k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2580" y="2509"/>
+            <point key="canvasLocation" x="2604" y="2499"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="MkJ-X7-ilO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PQ5-zE-b6z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="tCl-3k-n6S" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="id6-ku-vIz"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="id6-ku-vIz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rCf-uI-oTU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3501,8 +3549,9 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                         <segue destination="Tgx-L6-k0p" kind="relationship" relationship="rootViewController" id="n6v-09-d5R"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PQ5-zE-b6z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3358" y="2508"/>
+            <point key="canvasLocation" x="3358" y="2499"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PdT-zF-7Pf">
@@ -3544,6 +3593,7 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
         <image name="earth" width="512" height="512"/>
         <image name="envelope.fill" catalog="system" width="128" height="93"/>
         <image name="glass-and-bottle-of-wine" width="12.5" height="16.5"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="images" width="259" height="194"/>
         <image name="images-1" width="275" height="183"/>

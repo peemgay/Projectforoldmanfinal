@@ -12,6 +12,7 @@
 		99ADC2BC2498B94900B05A64 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2BB2498B94900B05A64 /* NavigationViewController.swift */; };
 		99ADC2BE2498BA8400B05A64 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */; };
 		99ADC2C02498C43500B05A64 /* MainController.swift 16-05-11-720.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2BF2498C43500B05A64 /* MainController.swift 16-05-11-720.swift */; };
+		99ADC2C22498D2C300B05A64 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2C12498D2C300B05A64 /* ChooseViewController.swift */; };
 		99EE30AE24938650002BC45B /* DatepickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE30AD24938650002BC45B /* DatepickerViewController.swift */; };
 		99F09415247CCB3A0042C301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F09414247CCB3A0042C301 /* AppDelegate.swift */; };
 		99F09417247CCB3A0042C301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F09416247CCB3A0042C301 /* SceneDelegate.swift */; };
@@ -47,6 +48,7 @@
 		99ADC2BB2498B94900B05A64 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		99ADC2BF2498C43500B05A64 /* MainController.swift 16-05-11-720.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainController.swift 16-05-11-720.swift"; sourceTree = "<group>"; };
+		99ADC2C12498D2C300B05A64 /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
 		99EE30AD24938650002BC45B /* DatepickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatepickerViewController.swift; sourceTree = "<group>"; };
 		99F09411247CCB3A0042C301 /* ProjectforOldman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectforOldman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F09414247CCB3A0042C301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				99EE30AD24938650002BC45B /* DatepickerViewController.swift */,
 				99ADC2BB2498B94900B05A64 /* NavigationViewController.swift */,
 				99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */,
+				99ADC2C12498D2C300B05A64 /* ChooseViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99ADC2C22498D2C300B05A64 /* ChooseViewController.swift in Sources */,
 				99F09415247CCB3A0042C301 /* AppDelegate.swift in Sources */,
 				99F09438247E030D0042C301 /* register.swift in Sources */,
 				99F0943A247E03480042C301 /* register2.swift in Sources */,
