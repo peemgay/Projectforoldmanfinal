@@ -1,14 +1,14 @@
 //
-//  MainController.swift
+//  NavigationViewController.swift
 //  ProjectforOldman
 //
-//  Created by Peem on 11/6/2563 BE.
+//  Created by Peem on 16/6/2563 BE.
 //  Copyright © 2563 Peem. All rights reserved.
 //
 
 import UIKit
 
-class MainController: UIViewController {
+class NavigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

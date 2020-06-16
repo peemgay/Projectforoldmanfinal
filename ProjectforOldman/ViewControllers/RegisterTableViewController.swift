@@ -17,11 +17,27 @@ class RegisterTableViewController: UITableViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var eyePasswordButton: UIButton!
     @IBOutlet weak var eyeConfirmPasswordButton: UIButton!
+    @IBOutlet weak var register: UIButton!
+    @IBOutlet weak var cancel: UIButton!
     
     var registerAPIManager: RegisterAPIManager?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        register.layer.cornerRadius = 20
+        register.clipsToBounds = true
+        register.layer.shadowRadius = 10
+        register.layer.shadowOpacity = 1.0
+        register.layer.shadowOffset = CGSize(width: 3, height: 3)
+        register.layer.shadowColor = UIColor.green.cgColor
+        
+        cancel.layer.cornerRadius = 20
+        cancel.clipsToBounds = true
+        cancel.layer.shadowRadius = 10
+        cancel.layer.shadowOpacity = 1.0
+        cancel.layer.shadowOffset = CGSize(width: 3, height: 3)
+        cancel.layer.shadowColor = UIColor.green.cgColor
         
         setupData()
     }

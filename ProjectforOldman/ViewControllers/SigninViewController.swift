@@ -12,11 +12,27 @@ final class SigninViewController: UIViewController {
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var signin: UIButton!
+    @IBOutlet weak var register: UIButton!
     
     var signinAPIManager: SigninAPIManager?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        signin.layer.cornerRadius = 20
+        signin.clipsToBounds = true
+        signin.layer.shadowRadius = 10
+        signin.layer.shadowOpacity = 1.0
+        signin.layer.shadowOffset = CGSize(width: 3, height: 3)
+        signin.layer.shadowColor = UIColor.green.cgColor
+        
+        register.layer.cornerRadius = 20
+        register.clipsToBounds = true
+        register.layer.shadowRadius = 10
+        register.layer.shadowOpacity = 1.0
+        register.layer.shadowOffset = CGSize(width: 3, height: 3)
+        register.layer.shadowColor = UIColor.green.cgColor
         
         setupView()
         setupData()

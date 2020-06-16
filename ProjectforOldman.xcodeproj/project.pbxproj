@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99EE2F9D248C9C0A002BC45B /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F9B248C9C09002BC45B /* CollectionTableViewCell.swift */; };
-		99EE2F9E248C9C0A002BC45B /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99EE2F9C248C9C09002BC45B /* CollectionTableViewCell.xib */; };
-		99EE2FA2248C9C47002BC45B /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2FA0248C9C47002BC45B /* MyCollectionViewCell.swift */; };
-		99EE2FA3248C9C47002BC45B /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99EE2FA1248C9C47002BC45B /* MyCollectionViewCell.xib */; };
-		99EE3034249241A1002BC45B /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE3033249241A1002BC45B /* MainController.swift */; };
+		99ADC2B82498B6E700B05A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2B72498B6E700B05A64 /* ViewController.swift */; };
+		99ADC2BA2498B6F000B05A64 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2B92498B6F000B05A64 /* TableCell.swift */; };
+		99ADC2BC2498B94900B05A64 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2BB2498B94900B05A64 /* NavigationViewController.swift */; };
+		99ADC2BE2498BA8400B05A64 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */; };
+		99ADC2C02498C43500B05A64 /* MainController.swift 16-05-11-720.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2BF2498C43500B05A64 /* MainController.swift 16-05-11-720.swift */; };
 		99EE30AE24938650002BC45B /* DatepickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE30AD24938650002BC45B /* DatepickerViewController.swift */; };
 		99F09415247CCB3A0042C301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F09414247CCB3A0042C301 /* AppDelegate.swift */; };
 		99F09417247CCB3A0042C301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F09416247CCB3A0042C301 /* SceneDelegate.swift */; };
@@ -42,11 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		99EE2F9B248C9C09002BC45B /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
-		99EE2F9C248C9C09002BC45B /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
-		99EE2FA0248C9C47002BC45B /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
-		99EE2FA1248C9C47002BC45B /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
-		99EE3033249241A1002BC45B /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		99ADC2B72498B6E700B05A64 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../iOS-Swift4-SearchBar-TableView-iPhoneX/SearchBarInTable/SearchBarInTable/ViewController.swift"; sourceTree = "<group>"; };
+		99ADC2B92498B6F000B05A64 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		99ADC2BB2498B94900B05A64 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		99ADC2BF2498C43500B05A64 /* MainController.swift 16-05-11-720.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainController.swift 16-05-11-720.swift"; sourceTree = "<group>"; };
 		99EE30AD24938650002BC45B /* DatepickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatepickerViewController.swift; sourceTree = "<group>"; };
 		99F09411247CCB3A0042C301 /* ProjectforOldman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectforOldman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F09414247CCB3A0042C301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,24 +88,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		99EE2F9A248C9BB0002BC45B /* TableCell */ = {
-			isa = PBXGroup;
-			children = (
-				99EE2F9B248C9C09002BC45B /* CollectionTableViewCell.swift */,
-				99EE2F9C248C9C09002BC45B /* CollectionTableViewCell.xib */,
-			);
-			path = TableCell;
-			sourceTree = "<group>";
-		};
-		99EE2F9F248C9C15002BC45B /* CollectionCell */ = {
-			isa = PBXGroup;
-			children = (
-				99EE2FA0248C9C47002BC45B /* MyCollectionViewCell.swift */,
-				99EE2FA1248C9C47002BC45B /* MyCollectionViewCell.xib */,
-			);
-			path = CollectionCell;
-			sourceTree = "<group>";
-		};
 		99F09408247CCB3A0042C301 = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +109,6 @@
 		99F09413247CCB3A0042C301 /* ProjectforOldman */ = {
 			isa = PBXGroup;
 			children = (
-				99EE2F9F248C9C15002BC45B /* CollectionCell */,
-				99EE2F9A248C9BB0002BC45B /* TableCell */,
 				99F0944B247E05810042C301 /* ErrorHelper */,
 				99F09446247E05240042C301 /* ViewControllers */,
 				99F09443247E04350042C301 /* Mockdata */,
@@ -191,11 +171,15 @@
 		99F09446247E05240042C301 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				99ADC2B92498B6F000B05A64 /* TableCell.swift */,
+				99ADC2B72498B6E700B05A64 /* ViewController.swift */,
 				99F09447247E053C0042C301 /* SigninViewController.swift */,
 				99F09449247E05580042C301 /* RegisterTableViewController.swift */,
 				99F0944E247E92600042C301 /* ForgotPasswordViewController.swift */,
-				99EE3033249241A1002BC45B /* MainController.swift */,
+				99ADC2BF2498C43500B05A64 /* MainController.swift 16-05-11-720.swift */,
 				99EE30AD24938650002BC45B /* DatepickerViewController.swift */,
+				99ADC2BB2498B94900B05A64 /* NavigationViewController.swift */,
+				99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -289,11 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99EE2FA3248C9C47002BC45B /* MyCollectionViewCell.xib in Resources */,
 				99F09421247CCB3E0042C301 /* LaunchScreen.storyboard in Resources */,
 				99F0941E247CCB3E0042C301 /* Assets.xcassets in Resources */,
 				99F0941C247CCB3A0042C301 /* Main.storyboard in Resources */,
-				99EE2F9E248C9C0A002BC45B /* CollectionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,17 +297,19 @@
 				99F09438247E030D0042C301 /* register.swift in Sources */,
 				99F0943A247E03480042C301 /* register2.swift in Sources */,
 				99F09442247E04100042C301 /* user.swift in Sources */,
-				99EE3034249241A1002BC45B /* MainController.swift in Sources */,
 				99EE30AE24938650002BC45B /* DatepickerViewController.swift in Sources */,
 				99F09417247CCB3A0042C301 /* SceneDelegate.swift in Sources */,
-				99EE2F9D248C9C0A002BC45B /* CollectionTableViewCell.swift in Sources */,
+				99ADC2BE2498BA8400B05A64 /* MainTableViewController.swift in Sources */,
 				99F09448247E053C0042C301 /* SigninViewController.swift in Sources */,
 				99F09445247E044A0042C301 /* Mockdata.swift in Sources */,
 				99F0943D247E03800042C301 /* Signin.swift in Sources */,
 				99F0943F247E03980042C301 /* signin2.swift in Sources */,
+				99ADC2BC2498B94900B05A64 /* NavigationViewController.swift in Sources */,
+				99ADC2C02498C43500B05A64 /* MainController.swift 16-05-11-720.swift in Sources */,
 				99F0944F247E92600042C301 /* ForgotPasswordViewController.swift in Sources */,
-				99EE2FA2248C9C47002BC45B /* MyCollectionViewCell.swift in Sources */,
 				99F0944D247E058C0042C301 /* ErrorHelper.swift in Sources */,
+				99ADC2B82498B6E700B05A64 /* ViewController.swift in Sources */,
+				99ADC2BA2498B6F000B05A64 /* TableCell.swift in Sources */,
 				99F0944A247E05580042C301 /* RegisterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

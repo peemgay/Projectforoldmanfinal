@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "6.jpg",
+      "filename" : "นกpng.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "นกpng@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "นกpng@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

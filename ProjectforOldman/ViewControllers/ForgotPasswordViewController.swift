@@ -9,22 +9,34 @@
 import UIKit
 
 class ForgotPasswordViewController: UITableViewController {
+    @IBOutlet weak var send: UIButton!
+    @IBOutlet weak var cancel: UIButton!
     
     
-    
-    
-    
-    
-  /*  @IBOutlet weak var EmailTextFild: UITextField!
-    @IBAction func EnterBottle(_ sender: Any) {
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
+        send.layer.cornerRadius = 20
+        send.clipsToBounds = true
+        send.layer.shadowRadius = 10
+        send.layer.shadowOpacity = 1.0
+        send.layer.shadowOffset = CGSize(width: 3, height: 3)
+        send.layer.shadowColor = UIColor.green.cgColor
+        
+        cancel.layer.cornerRadius = 20
+        cancel.clipsToBounds = true
+        cancel.layer.shadowRadius = 10
+        cancel.layer.shadowOpacity = 1.0
+        cancel.layer.shadowOffset = CGSize(width: 3, height: 3)
+        cancel.layer.shadowColor = UIColor.green.cgColor
+        
+       
     }
-    
-    @IBAction func CancelBottle(_ sender: Any) {
-        dismiss(animated: true,
-                   completion: nil)
-    }*/
-    
+    @IBAction func cancelTapButton(){
+           let vc = storyboard?.instantiateViewController(identifier: "signin") as! SigninViewController
+           vc.modalPresentationStyle = .fullScreen
+           present(vc,animated: true)
+       }
 }
 
 
