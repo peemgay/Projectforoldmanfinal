@@ -98,9 +98,15 @@ extension SigninViewController: SigninAPIManagerDelegate {
         
         alertController.addAction(confirmAction)
         
-        present(alertController,
-                animated: true,
-                completion: nil)
+        let vc = storyboard?.instantiateViewController(identifier: "tabbar") as! TabbarController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc,animated: true)
+        
+        /*present(alertController,
+                              animated: true,
+                              completion: nil)*/
+        
+       
        
     }
     

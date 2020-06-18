@@ -13,6 +13,10 @@
 		99ADC2BE2498BA8400B05A64 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */; };
 		99ADC2C02498C43500B05A64 /* MainController.swift 16-05-11-720.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2BF2498C43500B05A64 /* MainController.swift 16-05-11-720.swift */; };
 		99ADC2C22498D2C300B05A64 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2C12498D2C300B05A64 /* ChooseViewController.swift */; };
+		99ADC3002499C6B300B05A64 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2FF2499C6B300B05A64 /* TabBarViewController.swift */; };
+		99ADC3022499CFC600B05A64 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC3012499CFC600B05A64 /* TabbarController.swift */; };
+		99ADC307249A6E0900B05A64 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC306249A6E0900B05A64 /* TestViewController.swift */; };
+		99ADC309249B611300B05A64 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC308249B611300B05A64 /* ProfileTableViewController.swift */; };
 		99EE30AE24938650002BC45B /* DatepickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE30AD24938650002BC45B /* DatepickerViewController.swift */; };
 		99F09415247CCB3A0042C301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F09414247CCB3A0042C301 /* AppDelegate.swift */; };
 		99F09417247CCB3A0042C301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F09416247CCB3A0042C301 /* SceneDelegate.swift */; };
@@ -49,6 +53,10 @@
 		99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		99ADC2BF2498C43500B05A64 /* MainController.swift 16-05-11-720.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainController.swift 16-05-11-720.swift"; sourceTree = "<group>"; };
 		99ADC2C12498D2C300B05A64 /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		99ADC2FF2499C6B300B05A64 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		99ADC3012499CFC600B05A64 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		99ADC306249A6E0900B05A64 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		99ADC308249B611300B05A64 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		99EE30AD24938650002BC45B /* DatepickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatepickerViewController.swift; sourceTree = "<group>"; };
 		99F09411247CCB3A0042C301 /* ProjectforOldman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectforOldman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F09414247CCB3A0042C301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +191,10 @@
 				99ADC2BB2498B94900B05A64 /* NavigationViewController.swift */,
 				99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */,
 				99ADC2C12498D2C300B05A64 /* ChooseViewController.swift */,
+				99ADC2FF2499C6B300B05A64 /* TabBarViewController.swift */,
+				99ADC3012499CFC600B05A64 /* TabbarController.swift */,
+				99ADC306249A6E0900B05A64 /* TestViewController.swift */,
+				99ADC308249B611300B05A64 /* ProfileTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -298,16 +310,20 @@
 			files = (
 				99ADC2C22498D2C300B05A64 /* ChooseViewController.swift in Sources */,
 				99F09415247CCB3A0042C301 /* AppDelegate.swift in Sources */,
+				99ADC307249A6E0900B05A64 /* TestViewController.swift in Sources */,
+				99ADC309249B611300B05A64 /* ProfileTableViewController.swift in Sources */,
 				99F09438247E030D0042C301 /* register.swift in Sources */,
 				99F0943A247E03480042C301 /* register2.swift in Sources */,
 				99F09442247E04100042C301 /* user.swift in Sources */,
 				99EE30AE24938650002BC45B /* DatepickerViewController.swift in Sources */,
 				99F09417247CCB3A0042C301 /* SceneDelegate.swift in Sources */,
 				99ADC2BE2498BA8400B05A64 /* MainTableViewController.swift in Sources */,
+				99ADC3002499C6B300B05A64 /* TabBarViewController.swift in Sources */,
 				99F09448247E053C0042C301 /* SigninViewController.swift in Sources */,
 				99F09445247E044A0042C301 /* Mockdata.swift in Sources */,
 				99F0943D247E03800042C301 /* Signin.swift in Sources */,
 				99F0943F247E03980042C301 /* signin2.swift in Sources */,
+				99ADC3022499CFC600B05A64 /* TabbarController.swift in Sources */,
 				99ADC2BC2498B94900B05A64 /* NavigationViewController.swift in Sources */,
 				99ADC2C02498C43500B05A64 /* MainController.swift 16-05-11-720.swift in Sources */,
 				99F0944F247E92600042C301 /* ForgotPasswordViewController.swift in Sources */,

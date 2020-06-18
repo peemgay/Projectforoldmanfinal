@@ -43,7 +43,7 @@ class ForgotPasswordViewController: UITableViewController {
            present(vc,animated: true)
     }
     
-    @IBAction func recoverButtonTapped(_ sender: AnyObject) {
+   /* @IBAction func recoverButtonTapped(_ sender: AnyObject) {
         
         let userEmail = userEmailTextField.text
         
@@ -63,7 +63,7 @@ class ForgotPasswordViewController: UITableViewController {
                 self.displayMessage(errorMessage)
             }
         }
-    }
+    }*/
         
     func displayMessage(theMessage:String)
     {

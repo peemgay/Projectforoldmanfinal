@@ -1,34 +1,29 @@
 //
-//  ChooseViewController.swift
+//  ProfileTableViewController.swift
 //  ProjectforOldman
 //
-//  Created by Peem on 16/6/2563 BE.
+//  Created by Peem on 18/6/2563 BE.
 //  Copyright © 2563 Peem. All rights reserved.
 //
 
 import UIKit
 
-class ChooseViewController: UITableViewController {
-
-    @IBOutlet weak var lbl: UILabel!
-    @IBOutlet weak var lbl1: UILabel!
-    @IBOutlet weak var lbl2: UILabel!
-    
-    @IBAction func stepper(_ sender: UIStepper)
-    {
-        lbl.text = String(sender.value)
-    }
-    @IBAction func stepper1(_ sender: UIStepper)
-    {
-        lbl1.text = String(sender.value)
-    }
-    @IBAction func stepper2(_ sender: UIStepper)
-    {
-        lbl2.text = String(sender.value)
-    }
+class ProfileTableViewController: UITableViewController {
+    @IBOutlet weak var profile1: UIImageView!
+    @IBOutlet weak var img1: UIImageView!
+    @IBOutlet weak var img2: UIImageView!
+    @IBOutlet weak var img3: UIImageView!
+    @IBOutlet weak var img4: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        profile1.image = UIImage(named: "โปรไฟล์-วงกลม")
+        
+        img1.image = UIImage(named: "3")
+        img2.image = UIImage(named: "4")
+        img3.image = UIImage(named: "5")
+        img4.image = UIImage(named: "1")
     }
 
     // MARK: - Table view data source
