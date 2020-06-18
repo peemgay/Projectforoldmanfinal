@@ -3523,7 +3523,7 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FiY-gk-G5e">
                                 <rect key="frame" x="0.0" y="44" width="375" height="574"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <searchBar key="tableHeaderView" contentMode="redraw" text="" showsScopeBar="YES" id="UyH-sU-BOh">
+                                <searchBar key="tableHeaderView" contentMode="redraw" showsScopeBar="YES" id="UyH-sU-BOh">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                     <textInputTraits key="textInputTraits"/>
@@ -3545,13 +3545,13 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Gs-dB-M3s">
-                                                    <rect key="frame" x="10" y="10" width="84" height="84"/>
+                                                    <rect key="frame" x="10" y="10" width="99" height="84"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="0Gs-dB-M3s" secondAttribute="height" multiplier="1:1" id="8oZ-zS-y5r"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5z-MH-FEJ">
-                                                    <rect key="frame" x="111.5" y="12" width="55" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5z-MH-FEJ">
+                                                    <rect key="frame" x="126.5" y="12" width="55" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="55" id="4o5-OJ-fmI"/>
                                                         <constraint firstAttribute="height" constant="21" id="uf9-OP-fTn"/>
@@ -3560,24 +3560,32 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCt-xi-6oL">
-                                                    <rect key="frame" x="111.5" y="57" width="80" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCt-xi-6oL">
+                                                    <rect key="frame" x="126.5" y="57" width="80" height="32"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="YT4-1W-fiL"/>
                                                         <constraint firstAttribute="width" constant="80" id="bt6-7E-czA"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAM-UU-1Jn">
-                                                    <rect key="frame" x="206.5" y="57" width="153.5" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAM-UU-1Jn">
+                                                    <rect key="frame" x="138" y="57" width="62" height="32"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="Qgv-47-jAH"/>
+                                                        <constraint firstAttribute="width" constant="62" id="fd4-Mn-OGD"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GwG-Am-0iE">
-                                                    <rect key="frame" x="181.5" y="12" width="178.5" height="21"/>
+                                                    <rect key="frame" x="132" y="12" width="229" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="qWG-gY-nW9"/>
+                                                        <constraint firstAttribute="width" constant="229" id="ys5-51-NpL"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -3586,19 +3594,21 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                                             <constraints>
                                                 <constraint firstItem="kAM-UU-1Jn" firstAttribute="bottom" secondItem="oCt-xi-6oL" secondAttribute="bottom" id="0VL-9p-8Rj"/>
                                                 <constraint firstItem="0Gs-dB-M3s" firstAttribute="top" secondItem="UDV-HN-CcL" secondAttribute="top" constant="10" id="5So-Sk-ghw"/>
-                                                <constraint firstItem="kAM-UU-1Jn" firstAttribute="leading" secondItem="oCt-xi-6oL" secondAttribute="trailing" constant="15" id="6sk-bR-ZCt"/>
+                                                <constraint firstAttribute="trailing" secondItem="kAM-UU-1Jn" secondAttribute="trailing" constant="175" id="DuN-uZ-6hp"/>
                                                 <constraint firstItem="kAM-UU-1Jn" firstAttribute="top" secondItem="oCt-xi-6oL" secondAttribute="top" id="JlU-bu-xE1"/>
-                                                <constraint firstItem="GwG-Am-0iE" firstAttribute="leading" secondItem="e5z-MH-FEJ" secondAttribute="trailing" constant="15" id="NbC-7U-EO3"/>
                                                 <constraint firstAttribute="bottom" secondItem="0Gs-dB-M3s" secondAttribute="bottom" constant="10" id="RST-Og-djE"/>
-                                                <constraint firstAttribute="trailing" secondItem="kAM-UU-1Jn" secondAttribute="trailing" constant="15" id="cdM-C2-Bi2"/>
-                                                <constraint firstItem="GwG-Am-0iE" firstAttribute="bottom" secondItem="e5z-MH-FEJ" secondAttribute="bottom" id="fyW-au-vNT"/>
+                                                <constraint firstAttribute="trailing" secondItem="GwG-Am-0iE" secondAttribute="trailing" constant="14" id="VBT-OY-1ON"/>
+                                                <constraint firstAttribute="bottom" secondItem="kAM-UU-1Jn" secondAttribute="bottom" constant="15" id="eKb-wa-zcs"/>
+                                                <constraint firstItem="kAM-UU-1Jn" firstAttribute="top" secondItem="e5z-MH-FEJ" secondAttribute="bottom" constant="24" id="gO4-f7-G39"/>
+                                                <constraint firstItem="GwG-Am-0iE" firstAttribute="top" secondItem="UDV-HN-CcL" secondAttribute="top" constant="12" id="igQ-Gn-ttJ"/>
                                                 <constraint firstItem="e5z-MH-FEJ" firstAttribute="top" secondItem="UDV-HN-CcL" secondAttribute="top" constant="12" id="kUD-yZ-1Ja"/>
-                                                <constraint firstAttribute="trailing" secondItem="GwG-Am-0iE" secondAttribute="trailing" constant="15" id="odx-AH-gQ8"/>
+                                                <constraint firstItem="oCt-xi-6oL" firstAttribute="top" secondItem="GwG-Am-0iE" secondAttribute="bottom" constant="24" id="nRk-sX-JiR"/>
                                                 <constraint firstItem="oCt-xi-6oL" firstAttribute="leading" secondItem="0Gs-dB-M3s" secondAttribute="trailing" constant="17.5" id="s28-8q-gnH"/>
                                                 <constraint firstItem="0Gs-dB-M3s" firstAttribute="leading" secondItem="UDV-HN-CcL" secondAttribute="leading" constant="10" id="tKF-gL-lV0"/>
+                                                <constraint firstItem="kAM-UU-1Jn" firstAttribute="leading" secondItem="0Gs-dB-M3s" secondAttribute="trailing" constant="29" id="tU6-tn-L9T"/>
                                                 <constraint firstItem="oCt-xi-6oL" firstAttribute="top" secondItem="e5z-MH-FEJ" secondAttribute="bottom" constant="24" id="uXj-Au-6k4"/>
                                                 <constraint firstItem="e5z-MH-FEJ" firstAttribute="leading" secondItem="0Gs-dB-M3s" secondAttribute="trailing" constant="17.5" id="wPC-lv-1Uo"/>
-                                                <constraint firstItem="GwG-Am-0iE" firstAttribute="top" secondItem="e5z-MH-FEJ" secondAttribute="top" id="xkY-tH-khu"/>
+                                                <constraint firstItem="GwG-Am-0iE" firstAttribute="leading" secondItem="0Gs-dB-M3s" secondAttribute="trailing" constant="23" id="zBJ-9u-mDS"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -3631,7 +3641,7 @@ Novotel Hua Hin Cha Am Beach Resort and Spa ได้เลย ระหว่�
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oSS-1I-EV1" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1790" y="3257"/>
+            <point key="canvasLocation" x="1789.5999999999999" y="3256.8215892053977"/>
         </scene>
         <!--Explor-->
         <scene sceneID="rTc-7B-bdZ">
