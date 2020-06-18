@@ -23,7 +23,7 @@ class ProfileTableViewController: UITableViewController {
         img1.image = UIImage(named: "3")
         img2.image = UIImage(named: "4")
         img3.image = UIImage(named: "5")
-        img4.image = UIImage(named: "1")
+        img4.image = UIImage(named: "2")
     }
 
     // MARK: - Table view data source
