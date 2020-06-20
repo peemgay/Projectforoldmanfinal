@@ -9,27 +9,44 @@
 import UIKit
 
 class DatepickerViewController: UIViewController {
+    
+    @IBOutlet weak var inputTextField: UITextField!
 
-    @IBOutlet weak var Picker: UIDatePicker!
-    @IBOutlet weak var Label: UILabel!
+    private var datePicker: UIDatePicker?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        inputTextField.layer.cornerRadius = 20
+        inputTextField.clipsToBounds = true
+        inputTextField.layer.shadowRadius = 10
+        inputTextField.layer.shadowOpacity = 1.0
+        inputTextField.layer.shadowOffset = CGSize(width: 3, height: 3)
+        inputTextField.layer.shadowColor = UIColor.green.cgColor
+        
+        datePicker = UIDatePicker()
+        datePicker?.datePickerMode = .date
+        datePicker?.addTarget(self, action: #selector(dateChanged(datePicker:)), for: .valueChanged)
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(viewTapped(gestureRecognizer:)))
+        
+        view.addGestureRecognizer(tapGesture)
+        
+        inputTextField.inputView = datePicker
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    @IBAction func Getdate(_ sender: Any) {
-        Label.text = "\(Picker.date)"
+    @objc func viewTapped(gestureRecognizer: UITapGestureRecognizer) {
+        view.endEditing(true)
     }
     
+    @objc func dateChanged(datePicker: UIDatePicker) {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MM/dd/yyyy"
+        inputTextField.text = dateFormatter.string(from: datePicker.date)
+        view.endEditing(true)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
 }

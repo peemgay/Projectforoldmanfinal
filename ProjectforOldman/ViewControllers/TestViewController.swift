@@ -2,37 +2,46 @@
 //  TestViewController.swift
 //  ProjectforOldman
 //
-//  Created by Peem on 17/6/2563 BE.
+//  Created by Peem on 18/6/2563 BE.
 //  Copyright © 2563 Peem. All rights reserved.
 //
 
 import UIKit
 
-class TestViewController: UIViewController {
-    @IBOutlet weak var lbl1: UILabel!
-    @IBOutlet weak var lbl2: UILabel!
-    @IBOutlet weak var lbl3: UILabel!
-    @IBOutlet weak var img: UIImageView!
+class TestViewController: UIViewController,
+UITableViewDelegate,
+UITableViewDataSource{
+    var datatitle = ["Peem",
+    "peem",
+    "peem2"];
+    var subTitle = ["KM",
+    "U",
+    "TT"];
+    var img = ["1",
+    "2",
+    "3"];
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        img.image = UIImage(named: "1")
-
-        // Do any additional setup after loading the view.
+      
     }
-    @IBAction func stepper(_ sender: UIStepper)
-    {
-        lbl1.text = String(sender.value)
+    func tableView(_ tableView: UITableView,
+                   numberOfRowsInSection section: Int) -> Int {
+        return datatitle.count
     }
-    @IBAction func stepper1(_ sender: UIStepper)
-    {
-        lbl2.text = String(sender.value)
+    
+    func tableView(_ tableView: UITableView,
+                   cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var myCell = tableView.dequeueReusableCell(withIdentifier: "cell2") as! UITableViewCell
+        
+        myCell.textLabel?.text = datatitle[indexPath.row]
+        myCell.detailTextLabel?.text = subTitle[indexPath.row]
+        
+        myCell.imageView?.image = UIImage(named: img[indexPath.row])
+        
+        return myCell
     }
-    @IBAction func stepper2(_ sender: UIStepper)
-    {
-        lbl3.text = String(sender.value)
-    }
-
-
+ 
 }
+

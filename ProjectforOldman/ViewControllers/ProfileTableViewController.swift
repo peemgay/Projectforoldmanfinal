@@ -14,83 +14,75 @@ class ProfileTableViewController: UITableViewController {
     @IBOutlet weak var img2: UIImageView!
     @IBOutlet weak var img3: UIImageView!
     @IBOutlet weak var img4: UIImageView!
+    @IBOutlet weak var backView: UIStackView!
+    @IBOutlet weak var aboutButton: UIButton!
+    @IBOutlet weak var favouritesButton: UIButton!
+    @IBOutlet weak var galleryButton: UIButton!
+    @IBOutlet weak var backview: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         profile1.image = UIImage(named: "โปรไฟล์-วงกลม")
         
         img1.image = UIImage(named: "3")
         img2.image = UIImage(named: "4")
         img3.image = UIImage(named: "5")
         img4.image = UIImage(named: "2")
+        backview.image = UIImage(named: "ดาวน์โหลด2")
     }
-
+    
+    
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+        
         return 0
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+        
         return 0
     }
-
-    /*
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
-        return cell
+    
+    @IBAction func onClickRound(_ sender: Any) {
+        let  vc = storyboard?.instantiateViewController(identifier: "about") as! AboutTableViewController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc,animated: true)
+        
+        changeButtonColor(roundColor: #colorLiteral(red: 0.2666666667, green: 0.7333333333, blue: 1, alpha: 1), roundTxtColor: .white)
     }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+    
+    @IBAction func onClickOneWay(_ sender: Any) {
+        changeButtonColor(oneWayColor: #colorLiteral(red: 0.2666666667, green: 0.7333333333, blue: 1, alpha: 1), oneWayTxtColor: .white)
     }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+    
+    @IBAction func onClickMulti(_ sender: Any) {
+        let  vc = storyboard?.instantiateViewController(identifier: "gallery") as! GalleryTableViewController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc,animated: true)
+        
+        changeButtonColor(multiColor: #colorLiteral(red: 0.4119389951, green: 0.8247622848, blue: 0.9853010774, alpha: 1), multiTxtColor: .white)
     }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
+    
+    func changeButtonColor(roundColor: UIColor = .white , oneWayColor: UIColor = .white, multiColor: UIColor = .white, roundTxtColor: UIColor = #colorLiteral(red: 0.2666666667, green: 0.7333333333, blue: 1, alpha: 1), oneWayTxtColor: UIColor = #colorLiteral(red: 0.2666666667, green: 0.7333333333, blue: 1, alpha: 1), multiTxtColor: UIColor = #colorLiteral(red: 0.2666666667, green: 0.7333333333, blue: 1, alpha: 1)) {
+        
+        aboutButton.backgroundColor = roundColor
+        aboutButton.setTitleColor(roundTxtColor, for: .normal)
+        
+        favouritesButton.backgroundColor = oneWayColor
+        favouritesButton.setTitleColor(oneWayTxtColor, for: .normal)
+        
+        galleryButton.backgroundColor = multiColor
+        galleryButton.setTitleColor(multiTxtColor, for: .normal)
     }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
+    
+    @IBAction func settingClick(_ sender: Any) {
+    let  vc = storyboard?.instantiateViewController(identifier: "setting") as! SettingTableViewController
+    vc.modalPresentationStyle = .fullScreen
+    present(vc,animated: true)
     }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
+    
+    
 }
