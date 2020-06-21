@@ -262,6 +262,9 @@ SusieSays - Instagram</string>
                                 <state key="normal" title="Forgot Password?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="lRg-ed-coJ" kind="presentation" id="hMt-cF-cfl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGh-Gs-8wy">
                                 <rect key="frame" x="30" y="412" width="315" height="38"/>
@@ -272,9 +275,6 @@ SusieSays - Instagram</string>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="black"/>
                                 </state>
-                                <connections>
-                                    <action selector="signinButtonTapped:" destination="yl0-Ru-UFU" eventType="touchUpInside" id="fbg-vQ-VO1"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BtL-JT-7Z4">
                                 <rect key="frame" x="30" y="479" width="315" height="38"/>
