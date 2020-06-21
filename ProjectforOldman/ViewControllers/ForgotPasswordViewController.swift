@@ -1,81 +1,77 @@
 //
 //  ForgotPasswordViewController.swift
-//  ProjectforOldman
+//  KFC
 //
-//  Created by Peem on 27/5/2563 BE.
-//  Copyright © 2563 Peem. All rights reserved.
+//  Created by Kittinun Chobtham on 6/5/2563 BE.
+//  Copyright © 2563 Kittinun Chobtham. All rights reserved.
 //
 
 import UIKit
 
-class ForgotPasswordViewController: UITableViewController {
+final class ForgotPasswordViewController: UIViewController {
+
+    var forgotPasswordAPIManager: ForgotPasswordAPIManager?
     
-    
-    @IBOutlet weak var userEmailTextField: UITextField!
-    @IBOutlet weak var send: UIButton!
-    @IBOutlet weak var cancel: UIButton!
-    
+    @IBOutlet weak var emailTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        send.layer.cornerRadius = 20
-        send.clipsToBounds = true
-        send.layer.shadowRadius = 10
-        send.layer.shadowOpacity = 1.0
-        send.layer.shadowOffset = CGSize(width: 3, height: 3)
-        send.layer.shadowColor = UIColor.green.cgColor
-        
-        cancel.layer.cornerRadius = 20
-        cancel.clipsToBounds = true
-        cancel.layer.shadowRadius = 10
-        cancel.layer.shadowOpacity = 1.0
-        cancel.layer.shadowOffset = CGSize(width: 3, height: 3)
-        cancel.layer.shadowColor = UIColor.green.cgColor
-        
-       
+        setupData()
     }
     
-    @IBAction func cancelTapButton()
-    {
-           let vc = storyboard?.instantiateViewController(identifier: "signin") as! SigninViewController
-           vc.modalPresentationStyle = .fullScreen
-           present(vc,animated: true)
+    private func setupData() {
+        forgotPasswordAPIManager = ForgotPasswordAPIManagerImplementation()
+        
+        forgotPasswordAPIManager?.setDelegate(self)
     }
     
-   /* @IBAction func recoverButtonTapped(_ sender: AnyObject) {
-        
-        let userEmail = userEmailTextField.text
-        
-        User.confirmEmailTextField(userEmail) {
-            (success:Bool, error:NSError?) -> Void in
-            
-            if(success)
-            {
-                let successMessage = "Email message was sent to you at \(userEmail)"
-                self.displayMessage(successMessage)
-                return
-            }
-            
-            if(error != nil)
-            {
-                let errorMessage:String = error!.userInfo!["error"] as! String
-                self.displayMessage(errorMessage)
-            }
-        }
-    }*/
-        
-    func displayMessage(theMessage:String)
-    {
-        let myAlert = UIAlertController(title:"Alert", message:theMessage, preferredStyle: UIAlertController.Style.alert);
-        
-        let okAction = UIAlertAction(title: "OK", style:UIAlertAction.Style.default){
-            action in
-            self.dismiss(animated: true, completion:nil);
-        }
-        myAlert.addAction(okAction);
-        self.present(myAlert, animated:true, completion:nil);
+    @IBAction func sendForgotPassword(_ sender: Any?) {
+        forgotPasswordAPIManager?.sendForgotPassword(
+            optionalEmail: emailTextField.text)
+    }
+    
+    @IBAction func closeScreen(_ sender: Any?) {
+        dismiss(animated: true,
+                completion: nil)
     }
     
 }
 
+extension ForgotPasswordViewController: ForgotPasswordAPIManagerDelegate {
+    
+    func didSendForgotPasswordCompletion() {
+        let alertController = UIAlertController(title: "Success",
+                                                message: "Please check email.",
+                                                preferredStyle: .alert)
+        let confirmAction = UIAlertAction(title: "Confirm",
+                                          style: .default)
+        { (_) in
+            self.dismiss(animated: true,
+                         completion: nil)
+        }
+        
+        alertController.addAction(confirmAction)
+        
+        present(alertController,
+                animated: true,
+                completion: nil)
+    }
+    
+    func didSendForgotPasswordFailure(error: Error) {
+        let alertController = UIAlertController(title: "Warning",
+                                                message: ErrorHelper.errorMessage(genernalError: error as! GeneralError),
+                                                preferredStyle: .alert)
+        
+        let confirmAction = UIAlertAction(title: "Confirm",
+                                          style: .cancel,
+                                          handler: nil)
+        
+        alertController.addAction(confirmAction)
+        
+        present(alertController,
+                animated: true,
+                completion: nil)
+    }
+    
+}

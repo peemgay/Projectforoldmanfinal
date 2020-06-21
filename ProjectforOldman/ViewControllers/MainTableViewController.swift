@@ -9,7 +9,11 @@
 import UIKit
 
 class MainTableViewController: UITableViewController {
-  
+   
+    
+    var image = UIImage()
+    var name = ""
+    
     @IBOutlet weak var tab01: UIView!
     @IBOutlet weak var tab02: UIView!
     @IBOutlet weak var tab03: UIView!
@@ -45,6 +49,8 @@ class MainTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+     
         
         tab01.layer.cornerRadius = 15
         tab01.clipsToBounds = true
