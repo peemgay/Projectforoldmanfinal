@@ -16,7 +16,7 @@
 		999C919A249F30E600D992D7 /* ForgotPasswordAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999C9198249F30E600D992D7 /* ForgotPasswordAPIClient.swift */; };
 		999C919C249F311200D992D7 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999C919B249F311200D992D7 /* ForgotPasswordViewController.swift */; };
 		999C919F249F319100D992D7 /* ErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999C919E249F319000D992D7 /* ErrorHelper.swift */; };
-		99ADC2B82498B6E700B05A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2B72498B6E700B05A64 /* ViewController.swift */; };
+		999C91A1249F39E300D992D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999C91A0249F39E300D992D7 /* ViewController.swift */; };
 		99ADC2BA2498B6F000B05A64 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2B92498B6F000B05A64 /* TableCell.swift */; };
 		99ADC2BC2498B94900B05A64 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2BB2498B94900B05A64 /* NavigationViewController.swift */; };
 		99ADC2BE2498BA8400B05A64 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */; };
@@ -62,7 +62,7 @@
 		999C9198249F30E600D992D7 /* ForgotPasswordAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordAPIClient.swift; sourceTree = "<group>"; };
 		999C919B249F311200D992D7 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		999C919E249F319000D992D7 /* ErrorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHelper.swift; sourceTree = "<group>"; };
-		99ADC2B72498B6E700B05A64 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../iOS-Swift4-SearchBar-TableView-iPhoneX/SearchBarInTable/SearchBarInTable/ViewController.swift"; sourceTree = "<group>"; };
+		999C91A0249F39E300D992D7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
 		99ADC2B92498B6F000B05A64 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		99ADC2BB2498B94900B05A64 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		99ADC2BD2498BA8400B05A64 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
@@ -212,8 +212,8 @@
 			isa = PBXGroup;
 			children = (
 				999C919B249F311200D992D7 /* ForgotPasswordViewController.swift */,
+				999C91A0249F39E300D992D7 /* ViewController.swift */,
 				99ADC2B92498B6F000B05A64 /* TableCell.swift */,
-				99ADC2B72498B6E700B05A64 /* ViewController.swift */,
 				99F09447247E053C0042C301 /* SigninViewController.swift */,
 				99F09449247E05580042C301 /* RegisterTableViewController.swift */,
 				99ADC2BF2498C43500B05A64 /* MainController.swift 16-05-11-720.swift */,
@@ -354,10 +354,10 @@
 				99F0943D247E03800042C301 /* Signin.swift in Sources */,
 				99F0943F247E03980042C301 /* signin2.swift in Sources */,
 				99ADC3022499CFC600B05A64 /* TabbarController.swift in Sources */,
+				999C91A1249F39E300D992D7 /* ViewController.swift in Sources */,
 				99ADC2BC2498B94900B05A64 /* NavigationViewController.swift in Sources */,
 				99ADC2C02498C43500B05A64 /* MainController.swift 16-05-11-720.swift in Sources */,
 				999C9195249F24F700D992D7 /* ViewController2.swift in Sources */,
-				99ADC2B82498B6E700B05A64 /* ViewController.swift in Sources */,
 				999C8D6E249CA86700D992D7 /* GalleryTableViewController.swift in Sources */,
 				99ADC2BA2498B6F000B05A64 /* TableCell.swift in Sources */,
 				999C919C249F311200D992D7 /* ForgotPasswordViewController.swift in Sources */,
